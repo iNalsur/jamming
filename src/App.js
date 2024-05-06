@@ -5,6 +5,7 @@ import SearchResults from './components/SearchResults';
 import Playlist from './components/Playlist';
 import Tracklist from './components/Tracklist';
 import Track from './components/Track';
+import SaveButton from './components/SaveButton';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Playlist />
       <Tracklist />
       <Track />
+      <SaveButton />
     </div>
   );
 }
