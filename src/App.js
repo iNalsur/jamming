@@ -6,6 +6,7 @@ import Playlist from './components/Playlist';
 import Tracklist from './components/Tracklist';
 import Track from './components/Track';
 import SaveButton from './components/SaveButton';
+import SearchButton from './components/SearchButton';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Tracklist />
       <Track />
       <SaveButton />
+      <SearchButton />
     </div>
   );
 }
